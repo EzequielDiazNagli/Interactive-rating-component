@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+main{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 2rem;
+    background-color: hsl(216, 20%, 15%);
+    padding: 2rem;
+    margin: 2rem;
+}
+.containerA{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.starContainer{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.ulList{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+.ulList:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+.list{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+button{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width: 100%;
+    height: 3rem;
+    border-radius: 3rem;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+main h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.7em;
+}
+main p, ul{
+    color: hsl(217, 12%, 63%)
+}
+main p{
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.containerB{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.selectedStar{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+    padding: 0.5rem 1rem;
+    border-radius: 3rem;
+}
+.hidden {
+    display: none;
+}
